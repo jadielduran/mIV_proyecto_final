@@ -1,4 +1,4 @@
-import express, { Router } from "express";
+import { Router } from "express";
 import {
     getUsuarios,
     createUsuario,
@@ -7,7 +7,7 @@ import {
     deleteUsuario,
     getUsuarioTareas,
     getUsuariosTareas,
-  } from '../controllers/project.controller.js';
+  } from '../controllers/usuario.controller.js';
 const router = Router();
 
 // Routes

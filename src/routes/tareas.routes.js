@@ -1,4 +1,11 @@
 import { Router } from 'express';
+import {
+    getTareas,
+    createTarea,
+    updateTarea,
+    deleteTarea,
+    getTarea
+} from '../controllers/tareas.controller.js'
 
 const router = Router();
 
